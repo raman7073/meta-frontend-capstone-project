@@ -1,0 +1,49 @@
+#about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutContainer {
+  max-width: 844px;
+  width: 100%;
+  padding: 6rem 0;
+}
+
+.aboutContainer .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 20px;
+  justify-content: center;
+}
+
+.aboutContainer .col {
+  max-width: 400px;
+}
+
+.aboutContainer .col img {
+  width: 100%;
+}
+
+.aboutContainer h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #495E57;
+}
+
+.aboutContainer h2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.6;
+  margin-bottom: 1.6rem;
+}
+
+.aboutContainer p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333333;
+  line-height: 1.4;
+}
+
